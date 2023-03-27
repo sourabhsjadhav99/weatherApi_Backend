@@ -8,7 +8,7 @@ let cors = require("cors")
 
  
 app.use(cors())
-app.use("/",cityRoutes)
+app.use("/", cityRoutes)
 
 app.listen(port, () => console.log(`App listening on port ${port}!`));
 

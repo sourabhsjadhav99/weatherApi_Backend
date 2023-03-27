@@ -3,8 +3,7 @@ const Schema = mongoose.Schema;
 
 const citySchema = new Schema(
   {
-    city: { type: String, unique: true },
-    favorite: { type: String },
+    city: { type: String,required:true, unique: true },
   }
 );
 
